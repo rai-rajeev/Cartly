@@ -1,0 +1,66 @@
+import 'package:shared_preferences/shared_preferences.dart';
+
+class SharedPrefs{
+
+  Future<void> setIsCustomer(bool value) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+
+    prefs.setBool('isCustomer', value);
+
+    print('PREFS SAVED');
+  }
+  Future<void> setTheme(bool value) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+
+    prefs.setBool('darkMode', value);
+
+    print('PREFS SAVED');
+  }
+  Future<bool> getTheme() async {
+    return (await SharedPreferences.getInstance()).getBool('darkMode')??false;
+  }
+
+  Future<bool?> getIsCostumer()async{
+    return (await SharedPreferences.getInstance()).getBool('isCustomer');
+  }
+
+  Future<void> setToken(String tkn)async{
+    await (await SharedPreferences.getInstance()).setString('token', tkn);
+    print(tkn);
+  }
+
+  Future<String?> getToken()async{
+    return (await SharedPreferences.getInstance()).getString('token');
+  }
+  Future<String?> getRestId()async{
+    return (await SharedPreferences.getInstance()).getString('restID');
+
+  }
+  Future<bool?> isRestCreated()async{
+    return (await SharedPreferences.getInstance()).getBool('isRestCreated');
+  }
+
+  Future<void> setRestCreated(bool value)async{
+    await (await SharedPreferences.getInstance()).setBool('isRestCreated', value);
+  }
+
+  Future<void> setRestId(String restId)async{
+    await (await SharedPreferences.getInstance()).setString('restID', restId);
+  }
+
+  Future<void> setIsGoogleSignedIn(bool value)async{
+    await (await SharedPreferences.getInstance()).setBool('isGoogleSignedIn', value);
+  }
+
+  Future<bool?> isGoogleSignedIn()async{
+    return (await SharedPreferences.getInstance()).getBool('isGoogleSignedIn');
+  }
+
+  Future<void> savePhone(String phone)async{
+    await (await SharedPreferences.getInstance()).setString('phone', phone);
+  }
+
+  Future<String?> getPhone()async{
+    return (await SharedPreferences.getInstance()).getString('phone');
+  }
+}

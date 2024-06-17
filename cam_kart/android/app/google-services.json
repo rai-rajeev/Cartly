@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1024872019784",
+    "firebase_url": "https://campus-catalogue-bd94d-default-rtdb.firebaseio.com",
+    "project_id": "campus-catalogue-bd94d",
+    "storage_bucket": "campus-catalogue-bd94d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024872019784:android:6e748a00d22dc41868657d",
+        "android_client_info": {
+          "package_name": "com.example.cam_kart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024872019784-pgcfi25io7nkjrd9i5k3fvb0di05u86q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cam_kart",
+            "certificate_hash": "e7014660f368103a6fe4ed2ff0adb9ccf39ac13d"
+          }
+        },
+        {
+          "client_id": "1024872019784-3pgssicto1bdqsmpdvpdivmebrtfnatr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWnTTEg77UrmKduofgxExNMVWdBDG8LTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024872019784-3pgssicto1bdqsmpdvpdivmebrtfnatr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1024872019784-kk79l46m9volv2hu3is0g4jbug2dsfjk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.camKart"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
