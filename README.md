@@ -1,6 +1,6 @@
 ![cartly_logo](https://github.com/rai-rajeev/Cartly/assets/106883666/ba68add7-7c40-4e9b-bf71-a9420b0d4457)
 # CARTLY
-"**Cartly** is a mobile application that enables users to place prepaid food orders at outlets within their locality. Shops can accept or reject these orders, and the order is completed when the shop scans the unique QR code presented by the user. If a shop rejects an order, a refund is automatically initiated and completed within 4-5 working days from the day of initiation. Its integration with Google Maps provides the exact location of the shop, making it easy for users to pick up their orders."
+**Cartly** is a mobile application that enables users to place prepaid food orders at outlets within their locality. Shops can accept or reject these orders, and the order is completed when the shop scans the unique QR code presented by the user. If a shop rejects an order, a refund is automatically initiated and completed within 4-5 working days from the day of initiation. Its integration with Google Maps provides the exact location of the shop, making it easy for users to pick up their orders.
 # Features
 + Mobile number verification for shopkeepers
 + Pre-payment and refunds (using the RazorPay Payment Gateway)
